@@ -30,9 +30,7 @@ public class Student {
     private String lastName;
     private double cgpa;
     @NotNull(message = "Enrollment date can't be null")
-    @NotEmpty(message = "Enrollment date can't be empty")
     private LocalDate dateOfEnrollment;
     @NotNull(message = "Is international can't be null")
-    @NotEmpty(message = "Enrollment date can't be empty")
     private Boolean isInternational;
 }
